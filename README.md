@@ -18,36 +18,36 @@ Descriptive analytics primarily uses observed data to identify key characteristi
 
 The descriptive analytics process is as follows:
 
-Ask a historical question that needs an answer, such as “How much of product X did we sell last year?”<br>
-Identify required data to answer the question<br>
-Collect and prepare data<br>
-Analyze data<br>
-Present results<br>
+-Ask a historical question that needs an answer, such as “How much of product X did we sell last year?”<br>
+-Identify required data to answer the question<br>
+-Collect and prepare data<br>
+-Analyze data<br>
+-Present results<br>
 
 Examples of descriptive analytics include:
 
-Summarizing historical events such as sales, inventory, or operations data
-Understanding engagement data such as likes and dislikes or volume of page views over time
-Reporting general trends like revenue growth or employee injuries
-Collating survey results
+-Summarizing historical events such as sales, inventory, or operations data <br>
+-Understanding engagement data such as likes and dislikes or volume of page views over time<br>
+-Reporting general trends like revenue growth or employee injuries<br>
+-Collating survey results
 
 ## Predictive Analytics
 Predictive analytics utilizes real-time and/or past data to make predictions based on probabilities. It can also be used to infer missing data or establish a predicted future trend. Predictive analytics uses simulation models and forecasting to suggest what could happen going forward, which can guide realistic goal setting, effective planning, management of performance expectations, and avoiding risks. This information can empower executives and managers to take a proactive and fact-based approach to strategy and decision making.
 
 The predictive analytics process is as follows:
 
-Ask a forward-thinking question, such as “Can we predict how much product X we will sell next year?” <br>
-Collect and prepare data <br>
-Develop predictive analytics models <br>
-Apply models to the prepared data <br>
-Review models and present results <br>
+-Ask a forward-thinking question, such as “Can we predict how much product X we will sell next year?” <br>
+-Collect and prepare data <br>
+-Develop predictive analytics models <br>
+-Apply models to the prepared data <br>
+-Review models and present results <br>
 Examples of predictive analytics include: 
 
-Forecasting customer behavior, purchasing patterns, and identifying sales trends
-Predicting customer preferences and recommending products to customers based on past purchases and search history
-Predicting the likelihood that a given customer will purchase another product or leave the store
-Identifying possible security breaches that require further investigation
-Predicting staffing and resourcing needs
+-Forecasting customer behavior, purchasing patterns, and identifying sales trends <br>
+-Predicting customer preferences and recommending products to customers based on past purchases and search history<br>
+-Predicting the likelihood that a given customer will purchase another product or leave the store<br>
+-Identifying possible security breaches that require further investigation<br>
+-Predicting staffing and resourcing needs
 
 
 ## Prescriptive Analytics
