@@ -1,5 +1,14 @@
 # Data-Analytics-Essentials-by-Cisco
 
+1) Analytics in real time -
+Topic Objective: Explain the value of data analytics. <br>
+The availability of real-time data now makes possible the analysis of many types of data from numerous sources. This data can be analyzed to provide actionable insights on which all types of organizations can base decisions.
+2) Data Analytics in Action -
+Topic Objective: Describe the phases in the analytic process. <br>
+The six phases of the analytic process are Asking the question, Getting the data, Investigating the data, Preparing the data, Analyzing the data, and Presenting the results. In real-world applications, the process is iterative.
+
+
+There are four key types of data analytics: Descriptive, Predictive, Prescriptive, and Diagnostic. Used in combination, they can provide a thorough understanding of a business's needs and opportunities.
 ## Different Types of Analysis
 Selectable image component. Select each item to show more information.
 In a technical sense, data analytics can be described as the process of using data to answer questions, identify trends, and extract insights. There are multiple types of analytics that can generate information to drive innovation, improve efficiency, and mitigate risk.
@@ -90,7 +99,7 @@ What products or services should be recommended to a customer? Recommendation sy
 
 But data analysis is not limited to just business problems. Think about your personal interests and questions that you might want to answer in order to gain a better understanding of the field. As you work through the labs and activities in the course, you will be building valuable skills for each step of the Data Analysis Lifecycle. Potential employers expect to see evidence that demonstrates the ability to complete a project from start to finish. For data analyst positions, this is usually done through a project portfolio. Starting now and continuing through this course, you can be planning to create your own personal project portfolio to share with prospective employers.
 
-##Asking the Right Questions
+## Asking the Right Questions
 
 /Objectives <br>
 This provides opportunities for learners to begin a personal analytic project. <br>
@@ -116,7 +125,7 @@ Did you ever wonder about something that you were unable to find an answer for, 
 
 It could be something as simple as “does having Batman appear in your movie make it more successful at the box office?” or “which flavors of ice cream are most popular with different age groups?”. Or it could be something more complex, like “what cryptocurrency is the best investment based on past year performance?”.
 
-/Write down your question. What is the benefit of determining the answer to this question? In most data analytic projects, the potential benefit is the reason for the project. For example, a marketing executive would benefit from knowing which age groups prefer certain flavors of ice cream, because it could help determine where to place advertising, or which flavors to stock in towns with colleges or universities.
+/Write down your question. What is the benefit of determining the answer to this question? In most data analytic projects, the potential benefit is the reason for the project. For example, a marketing executive would benefit from knowing which age groups prefer certain flavors of ice cream, because it could help determine where to place advertising, or which flavors to stock in towns with colleges or universities.<br>
 Review the four different types of data analysis described in the module. What type of analysis do you think fits best to uncover the answer to your question? In most cases, descriptive analysis is a good choice if the answer will be determined by analyzing historical data. <br>
 
 Step 2: Determine the Data Needed
@@ -124,15 +133,102 @@ Step 2: Determine the Data Needed
 Now that you have a question in mind, think about the data elements that you might need to analyze in order to come up with an answer to the question.
 
 Make a list of the data elements that you identify. An example: If the question is “does having Batman appear in your movie make it more successful at the box office?”, some of the needed data elements would be:
-Movies with Batman as a character
-Successful movies made in the same timeframe
-Box office sales and revenue of movies in the same timeframe
-Open a web browser and use any search engine to search for the data elements that you have identified.
-List sources that you found that may have data relating to the elements you identified.
-You may also want to investigate sources, such as Kaggle, that provide sample data for analysis.
+-Movies with Batman as a character <br> 
+-Successful movies made in the same timeframe <br>
+-Box office sales and revenue of movies in the same timeframe <br>
+-Open a web browser and use any search engine to search for the data elements that you have identified. <br>
+-List sources that you found that may have data relating to the elements you identified. <br>
+-You may also want to investigate sources, such as Kaggle, that provide sample data for analysis. <br>
+
 Reflection Questions
-Why is it important to identify the question that needs to be answered by the analysis before beginning the project?
-Name some sources of open data for analysis that you found while searching for your data elements.
+-Why is it important to identify the question that needs to be answered by the analysis before beginning the project? <br>
+-Name some sources of open data for analysis that you found while searching for your data elements. <br>
+
+
+## Tools Used For Data Analysis -
+
+ /Excel -Excel is powerful and very popular for performing small-scale data analysis, calculations, data summaries, and data visualizations.
+
+Excel skills you need :
+
+-Perform data cleaning by removing blank spaces as well as incorrect and outdated information <br>
+-Format and adjust data using conditional formatting <br>
+-Perform data calculations using formulas <br>
+-Organize data using sorting and filtering <br>
+-Create visualizations using graphing and charting <br>
+-Calculate, summarize, and analyze data using pivot tables <br>
+-Aggregate data for analysis <br>
+
+/SQL- SQL, which stands for Structured Query Language, is a powerful database management tool that allows data analysts to retrieve and interact with selections of data that are stored in relational databases.
+
+SQL skills you need :
+
+-Create tables <br>
+-Retrieve data using SQL index<br>
+-Retrieve data using SQL queries<br>
+-Aggregate data with SQL joins<br>
+
+/Power Bi/Tableau- used to visualise data.
+
+
+ ## Observations, Variables, and Values
+
+A variable in this context is anything that varies from one instance to another, that can be measured, and whose value can be manipulated or controlled in theoretical scenarios.
+
+
+![Screenshot 2023-07-25 114726](https://github.com/kirannavale/Portfolio-Projects/assets/34519689/6dccd011-10c9-4335-8483-be052d19b677)
+
+Categorical variables indicate membership in a particular group and have a discrete or specific qualitative value. They are further classified into two types:
+
+/Nominal - These are variables that consist of two or more discrete categories whose value is assigned based on the identity of the object. Examples are gender, eye color or type of animal.
+
+/Ordinal - These are variables that consist of two or more categories in which order matters in the value. Examples are student class rank (1st, 2nd, 3rd) or satisfaction survey scales (dissatisfied, neutral, satisfied).
+
+Numerical variables are quantitative values:
+
+/Continuous - These are variables that are quantitative and can be measured along a continuum or range of values. There are two types of continuous variables: Interval variables can have any value within the range of values, and examples are temperature or time; Ratio variables are special interval variables where a value of zero (0) can mean that there is none of that variable and examples are income or sales volume.
+
+/Discrete - These types of continuous variables are quantitative but have a specific value from a finite set of values. Examples include the number of sensors activated in a network, or the number of cars in a lot.
+
+Why is it important to know what types of variables are in your data set? Some types of analysis and data visualizations are designed to work with certain types of data. How you might choose to present the results of the analysis will depend on the type of variables used in the data. Some types of variables lend themselves better to bar graphs, while others may allow for more examination and discovery using a scatter plot. Examples of some of the suggested types of graphs that represent the different types of variables can be seen in the figure above.
+
+
+## Preparing and cleaning data for Analysis
+
+![Screenshot 2023-07-25 115246](https://github.com/kirannavale/Portfolio-Projects/assets/34519689/f5261147-d725-40d9-9ad2-b8fe5eeaf001)
+
+
+/Selecting Relevant Data-
+Selecting relevant data for your analysis includes determining the type(s) of data that you need and finding a source for the data. When selecting data for a project, it is important to focus on finding data that may provide insights into your original business question. For example, if you are seeking to understand demographic characteristics of people who bought Product X in the past year, you should only be using data that is directly related to Product X. This process is crucial to ensuring the validity and reliability of your analysis. Sometimes the data you need to answer your questions isn’t readily available. It may be necessary to establish new procedures to collect the data required for your analysis. Other times, it may involve combining data from multiple sources into a format that can be analyzed.
+
+
+Some questions that you should ask yourself when selecting a data source:
+
+-What data points are necessary to inform your analysis?
+
+-Do I already have access to this data, or must I find a dataset from another source?
+
+-Where are reliable and verifiable sources of this data?
+
+-How often is the relevant data collected and updated?
+
+-How is the data licensed for use, and is there a cost?
+
+-Is the data in a format that I can use, or convert to use, with my tools?
+
+## Static and Streaming Data
+There are two types of data that analysts work with: static data and streaming data. Data that is received and stored prior to performing analysis on the data is considered static data. When each event is processed and analyzed as it is received and subsequent results are used or stored, the data is referred to as streaming data.
+
+## Data Types and Formats
+
+![Screenshot 2023-07-25 115937](https://github.com/kirannavale/Portfolio-Projects/assets/34519689/b0afd913-bd89-4ff0-b361-453cdb94bc22)
+
+
+
+
+
+
+
 
 
 
