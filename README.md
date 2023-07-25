@@ -160,6 +160,7 @@ Excel skills you need :
 -Aggregate data for analysis <br>
 
 /SQL- SQL, which stands for Structured Query Language, is a powerful database management tool that allows data analysts to retrieve and interact with selections of data that are stored in relational databases.
+Relational databases can solve some of the issues that occur with flat file databases, such as duplicate or inconsistent data. Relational databases store information in tables; the definitions of the tables, relationships between tables and other characteristics of the database are stored in a schema.
 
 SQL skills you need :
 
@@ -335,7 +336,28 @@ Comparing the daily sales of ice cream at a given location to the average outsid
 Comparing the weight to the height of each person in a group<br>
 
 
-##Addressing Anomalies in Data
+## Addressing Anomalies in Data
+/Outliers and Anomalies-
+Before data analysis can begin, considerable time must be spent cleaning the data. During the data cleaning phase, you may find outliers, or anomalies, in the data. If so, they need to be investigated so that the data can be corrected or the meaning of the outlying data point can be understood.
+
+An outlier is defined as a value or data point that varies significantly from others, either much smaller or much greater. Sometimes outliers are mistakes and sometimes they represent an important piece of information. In the figure, the data point at the extreme bottom right is an outlier. All the other data points cluster along the trend line.
+
+![Screenshot 2023-07-25 123054](https://github.com/kirannavale/Portfolio-Projects/assets/34519689/12e0cde1-34c8-4ddd-81e5-f61791d45a9a)
+
+In the data analysis process, outliers that are the result of mistakes can lead to anomalies in the results obtained, while outliers that are not errors can be very important to an analysis. This is why investigating anomalies is a very important part of the data cleaning process—it ensures that data can be analyzed effectively and generate accurate and valid results.
+
+With small data sets it may be relatively easy to spot outliers by sorting or filtering the data. But when it comes to large datasets and big data, other tools are required. Two common types of data visualization used to find outliers are scatter plots and box plots.
+
+
+
+## types of bias that can impact data analysis results
+
+Bias in the selection and interpretation of data can create results that may not reflect the true situation. Bias must be recognized and mitigated for the results to be valid. Five types of bias that can influence the results of analysis are confirmation bias, interpretation bias, selection bias, information bias and predictive bias.
+
+ethical issues presented by the use of data.
+
+Privacy and security of data are two concerns that are being addressed by laws and regulations. Some of the most restrictive regulations are found in the General Data Protection Regulation (GDPR), which was adopted by the European Union, which governs how personal data of individuals in the EU may be processed and transferred. The components of the CIA triad (confidentiality, integrity, and availability) are a guideline for data security for an organization.
+
 
 
 
