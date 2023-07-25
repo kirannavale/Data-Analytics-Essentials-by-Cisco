@@ -223,6 +223,124 @@ There are two types of data that analysts work with: static data and streaming d
 
 ![Screenshot 2023-07-25 115937](https://github.com/kirannavale/Portfolio-Projects/assets/34519689/b0afd913-bd89-4ff0-b361-453cdb94bc22)
 
+## Data Preparation-
+
+##  ETL and ELT Processes-
+ETL and ELT are two versions of the same process for moving data through a pipeline. They contain the same steps but in different orders for different use cases.
+
+Extract, Transform and Load (ETL) is a process for collecting data from this variety of sources, transforming the data, and then loading the data into a database. One company’s data might be found in Word documents, spreadsheets, plain text, PowerPoints, emails and PDF files. Another company’s data may be housed in relational databases. This data can be stored in a variety of different formats, making it difficult to combine and analyze, so the transformation happens before loading.
+
+In an Extract, Load, Transform (ELT) process, the load and transform steps are reversed. ELT enables raw data to skip the transformation step and go straight to storage in an unstructured form. Transformation then occurs on the stored data as it is used. The ELT process is used primarily for large amounts of unstructured data.
+
+/Step 1. Extract
+In this step, data is located and gathered from various sources in order to be converted into a single format for analysis. The data may be extracted from a relational database, NoSQL, flat files, XML files, or other formats.
+
+/Step 2. Transform
+Data usually must be transformed before it can be loaded into a data warehouse for analysis. The transform step uses rules to transform the source data to the type of data needed for the target database. This includes converting any measured data to the same dimension (e.g., Imperial to Metric). The transformation step also requires several additional tasks. Some of these tasks are joining data from several sources, aggregating, sorting, determining new values that are calculated from aggregated data, and then applying validation rules.
+
+Data (possibly including some empty or error data) may go through another part of the transform step known as ‘cleaning’ or ‘scrubbing’ data, and validation lets you know whether the data needs cleaning. Some examples of data cleaning are removing blank records and standardizing formats such as date, time, and location. The cleaning part of the transform step further ensures the consistency of the source data.
+
+/Step 3. Load
+The transformed data is then loaded into the database for querying. The actual load process varies widely, depending on the types of source data, the type of target database, and the type of querying that is to be done. Some organizations may also overwrite existing data with newer cumulative data. During the load step, rules that have been defined in the database schema are applied. These rules check for necessary characteristics like uniqueness and consistency of data or that mandatory fields aren’t empty. These rules help to ensure that the loading and any subsequent querying of the data is successful.
+
+## Preparing and Cleaning Data for Analysis Summary
+
+Data needs to be cleaned before it can be analyzed. Cleaning the data makes it easier to read and interpret, ensures consistency and accurate results, and enables a better decision-making process.
+
+
+## Analysing data using statistics
+To do their jobs efficiently and effectively, data analysts must have a basic understanding of statistics. This is because data analytics relies heavily on statistics in the process of analyzing and interpreting data.
+
+# Descriptive Statistics
+After the problem statement (also known as the question to be asked) and population is determined, some form of statistical analysis is needed. There are two key branches of statistics that we will discuss in this course:
+
+-Descriptive Statistics <br>
+-Inferential Statistics
+
+Descriptive statistics are used to describe or summarize the values and observations of a data set. For example, a fitness tracker logged a person’s daily steps and heart rate for a 10-day period. If the person met their fitness goals in 6 out of the 10 days, then they were successful 60% of the time. Over that 10-day period, you could observe that the person’s heart rate was a maximum of 140 beats per minute (bpm), but an average of 72 bpm. These observations would be descriptive statistics that could be used to describe and simplify the data set.
+
+Basic descriptive statistics might include the total number of data points in a data set, the range of values that exist for those numeric data points, or the number of times a given value appears in a data set. Descriptive statistics may also answer questions about the occurrence of trends.
+The answers to these questions can be provided in numerical or graphical formats. Results of descriptive statistics are often represented in pie charts, bar charts or histograms. One important point to note is that while descriptive statistics describe the current or historical state of the observed population, it does not allow for:
+-comparison of groups <br>
+-conclusions to be drawn <br>
+
+predictions to be made about data sets that are not in the population <br>
+In the fitness tracker example, we cannot infer that the person has poor health because they were only successful in meeting their goal 60% of the time. We also cannot use the data set for this one person to predict the fitness performance for others with similar characteristics. This is where inferential statistics becomes important.
+
+## Inferential Statistics
+Descriptive statistics allows you to summarize findings based on data that you already have recorded or observed about a population. However, there are situations in which gathering data for a very large population may not always be practical or even possible. It is possible, however, to study a smaller representative sample of a population and use inferential statistics to test hypotheses and draw conclusions about the larger population.
+
+Inferential statistics is the process of collecting, analyzing and interpreting the data gathered from a sample to generalize or predict something about a population. When a representative sample is used, methodological concerns may arise and must be addressed, such as whether the groups chosen for the study or the environment in which a study is carried out accurately reflects characteristics of the larger group. Typically, these types of analyses will include different sampling techniques to reduce error and increase confidence in the generalized findings. The type of sampling technique used will depend on the type of data.
+
+
+## Statistics and Big Data
+
+Different statistical approaches are used in big data analytics. As we know, descriptive statistics describe a sample. This is useful for understanding the sample data and for determining the quality of the data. Problems can occur when dealing with large amounts of data that come from multiple sources. Data points can be corrupted, incomplete, or missing entirely. Descriptive statistics can help determine how much of the data in the sample is good for the analysis and identify criteria for removing data that is inappropriate or problematic. Graphs of descriptive statistics are a helpful way to make quick judgements about the quality of a sample.
+
+For example, in a sample of tweets selected for analysis, some contain only text characters, while others contain both characters and images. The type of analysis or question to be answered with analysis will determine whether tweets that contain images or tweets with no images should be analyzed. This will identify tweets that are invalid based on a very simple criterion, because images contain information that must be considered in the analysis if the tweets using images are included in the sample.
+
+A number of inferential analyses are very commonly used in big data analytics:
+
+-Cluster analysis - Used to find groups of observations that are similar to each other<br>
+-Association analysis - Used to find co-occurrences of values for different variables<br>
+-Regression analysis - Used to quantify the relationship, if any, between the variations of one or more variables
+
+
+## Choosing the Right Visualization for the Job
+
+Common Types of Data Visualizations
+
+Selectable image component. Select each item to show more information.<br>
+There are many types of data visualizations. Determining the best option usually depends on the answers to the following questions, among others:
+
+-How many variables are you going to show?<br>
+-How many data points are in each variable?<br>
+-Is your data over time or are you comparing data points at a single point in time?
+
+/Line Chart
+Line charts are one of the most commonly used types of comparison charts. Use line charts when you have a continuous set of data, the number of data points is high, and/or you would like to show a trend in the data over time. Some examples include:
+-Quarterly sales for the past five years<br>
+-Number of customers per week in the first year of a new retail shop<br>
+-Change in a stock’s price on one day, from opening to closing bell<br>
+
+
+/Column Chart
+Column charts are positioned vertically. They are probably the most common chart type used to display the values of a specific variable across similar categories. Some examples include:
+
+Populations of the BRICS nations (Brazil, Russia, India, China, and South Africa)<br>
+Last year’s sales for the top four car companies<br>
+Average student test scores for six math classes<br>
+
+/Bar Chart
+Bar charts are similar to column charts except they are positioned horizontally and hence used slightly differently (for example, they do not usually show changes over time). Longer bars indicate larger values. They are best used when the names for each data point is long, because there is space to write the information. Some examples include:
+
+-Gross domestic product (GDP) of the 25 highest-producing nations in a given year<br>
+-Number of cars sold by each sales representative in a group<br>
+-Exam scores for each student in a math class<br>
+
+/Pie Chart
+Pie charts are used to show the composition of a total. Segments of different sizes visually represent percentages of that total. The sum of the segments must equal 100%.
+
+Some examples include:
+Annual expenses for a corporation (e.g., rent, administrative, utilities, production)<br>
+A country’s energy sources (e.g., oil, coal, gas, solar, wind)<br>
+Survey results for a group’s favorite type of movie (e.g., action, romance, comedy, drama, science fiction)<br>
+
+/Scatter Plot
+Scatter plots are very popular for visualizing correlations, or to show the distribution of many data points. Scatter plots are also useful for demonstrating clustering or identifying outliers in the data.
+
+Some examples include:
+Comparing life expectancy to GDP for each country in a group<br>
+Comparing the daily sales of ice cream at a given location to the average outside temperature<br>
+Comparing the weight to the height of each person in a group<br>
+
+
+##Addressing Anomalies in Data
+
+
+
+
+
 
 
 
